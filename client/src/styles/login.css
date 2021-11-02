@@ -1,0 +1,30 @@
+.form-section {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(33, 42, 53);
+}
+.form-section h2 {
+    color: #111;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    z-index: 10;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    min-height: 400px;
+    background: #dae0e6;
+    box-shadow:  -20px 20px 60px #dae0e6
+                 20px -20px 60px #dae0e6;
+}
+.form div.form-header {
+    display: flex;
+    color: #fff;
+}

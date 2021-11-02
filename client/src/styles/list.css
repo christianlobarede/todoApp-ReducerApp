@@ -1,0 +1,37 @@
+.list-container {
+    padding: 1rem 2.5rem;
+    background: rgb(33, 42, 53);
+}
+.list-container .list-header h2 {
+    font-weight: 300;
+    padding: 1rem 0;
+}
+.list-container .list-body .list-item {
+    border: 1px solid rgb(187, 171, 171);
+    display: flex;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.list-container .list-body .list-item.completed {
+    opacity: 0.5;
+}
+
+.list-container .list-body .current.list-item {
+    display: none;
+    border: 1px solid rgb(187, 171, 171);
+    background: white;
+    display: flex;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.list-container .list-body .list-item .list-text {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.list-container .list-body .list-item .list-text.date {
+    margin-right: auto;
+}
